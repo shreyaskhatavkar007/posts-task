@@ -24,6 +24,8 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 ## Project Information
 
+username and password is admin
+
 Routes as below
 
 /login: Login Page with next-auth
@@ -31,6 +33,8 @@ Routes as below
 /posts: All the posts from API and comments of particular post
 /users: All the users from the API
 /comments: All the comments from API with an Infinite Scrollbar
+
+For Comments: Newly added comments wont be edited as the PUT would fail on https://jsonplaceholder.typicode.com/
 
 ## Learn More
 
